@@ -5,10 +5,10 @@ import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 function Body ()
 {
   return (
-    <section id="privacy-policy" className='blog'>
+    <section id="privacy-policy" className='blog' style={{zIndex:"-1"}}>
       <div className="blog-container">
         <div >
-          <h1 style={ { fontSize: "8rem" } } className="h1">
+          <h1 style={ { fontSize: "5rem" } } className="h1">
             Privacy Policy
           </h1>
           <h4
@@ -48,7 +48,7 @@ function Body ()
             still have any questions or concerns, please contact us at
             https://thebengalstudio.com/payment-policy.
           </p>
-          <h1>SUMMARY OF KEY POINTS</h1>
+          <h1 style={{fontSize:"3rem"}}>SUMMARY OF KEY POINTS</h1>
           <p style={ { fontStyle: "italic" } }>
             This summary provides key points from our privacy notice, but you
             can find out more details about any of these topics by clicking the
@@ -151,7 +151,7 @@ function Body ()
 
 
           <div id="table_of_contents">
-            <h1>TABLE OF CONTENTS</h1>
+            <h1 style={{fontSize:"3rem"}}>TABLE OF CONTENTS</h1>
             <div>
               <a href="#1" style={ { textDecoration: "none" } }>
                 { " " }
@@ -215,7 +215,7 @@ function Body ()
           </div>
 
           <div id="1">
-            <h1>1. WHAT INFORMATION DO WE COLLECT?</h1>
+            <h1 style={{fontSize:"3rem"}}>1. WHAT INFORMATION DO WE COLLECT?</h1>
             <h3 style={ { fontSize: "1.6rem", color: "black" } } id="in-focus" className="h4">
               Personal information you disclose to us
             </h3>
@@ -426,7 +426,7 @@ function Body ()
             </p>
           </div>
           <div id="2">
-            <h1>2. HOW DO WE PROCESS YOUR INFORMATION?</h1>
+            <h1 style={{fontSize:"3rem"}}>2. HOW DO WE PROCESS YOUR INFORMATION?</h1>
             <p>
               { " " }
               In Short: We process your information to provide, improve, and
@@ -453,7 +453,7 @@ function Body ()
             </p>
           </div>
           <div id="3">
-            <h1>
+            <h1 style={{fontSize:"3rem"}}>
               3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
             </h1>
             <p>
@@ -553,7 +553,7 @@ function Body ()
             </p>
           </div>
           <div id="4">
-            <h1>
+            <h1 style={{fontSize:"3rem"}}>
               4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
             </h1>
             <p>
@@ -592,7 +592,7 @@ function Body ()
             </p>
           </div>
           <div id="5">
-            <h1>5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</h1>
+            <h1 style={{fontSize:"3rem"}}>5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</h1>
             <p>
               In Short: We are not responsible for the safety of any information
               that you share with third parties that we may link to or who
@@ -620,7 +620,7 @@ function Body ()
             </p>
           </div>
           <div id="6">
-            <h1>6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h1>
+            <h1 style={{fontSize:"3rem"}}>6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h1>
             <p>
               In Short: We may use cookies and other tracking technologies to
               collect and store your information. We may use cookies and similar
@@ -634,7 +634,7 @@ function Body ()
             </p>
           </div>
           <div id="7">
-            <h1>7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h1>
+            <h1 style={{fontSize:"3rem"}}>7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h1>
             <p>
               In Short: If you choose to register or log in to our Services
               using a social media account, we may have access to certain
@@ -664,7 +664,7 @@ function Body ()
             </p>
           </div>
           <div id="8">
-            <h1>8. HOW LONG DO WE KEEP YOUR INFORMATION?</h1>
+            <h1 style={{fontSize:"3rem"}}>8. HOW LONG DO WE KEEP YOUR INFORMATION?</h1>
             <p>
               In Short: We keep your information for as long as necessary to
               fulfill the purposes outlined in this privacy notice unless
@@ -689,7 +689,7 @@ function Body ()
             </p>
           </div>
           <div id="9">
-            <h1>9. HOW DO WE KEEP YOUR INFORMATION SAFE?</h1>
+            <h1 style={{fontSize:"3rem"}}>9. HOW DO WE KEEP YOUR INFORMATION SAFE?</h1>
             <p>
               In Short: We do not knowingly collect data from or market to
               children under 18 years of age.
@@ -711,7 +711,7 @@ function Body ()
             </p>
           </div>
           <div id="10">
-            <h1>10. DO WE COLLECT INFORMATION FROM MINORS?</h1>
+            <h1 style={{fontSize:"3rem"}}>10. DO WE COLLECT INFORMATION FROM MINORS?</h1>
             <p>
               In Short: We do not knowingly collect data from or market to
               children under 18 years of age.
@@ -730,7 +730,7 @@ function Body ()
             </p>
           </div>
           <div id="11">
-            <h1>11. WHAT ARE YOUR PRIVACY RIGHTS?</h1>
+            <h1 style={{fontSize:"3rem"}}>11. WHAT ARE YOUR PRIVACY RIGHTS?</h1>
             <p>
               In Short: In some regions, such as the European Economic Area
               (EEA), United Kingdom (UK), Switzerland, and Canada, you have
@@ -826,7 +826,7 @@ function Body ()
             </p>
           </div>
           <div id="12">
-            <h1>12. CONTROLS FOR DO-NOT-TRACK FEATURES</h1>
+            <h1 style={{fontSize:"3rem"}}>12. CONTROLS FOR DO-NOT-TRACK FEATURES</h1>
             <p>
               Most web browsers and some mobile operating systems and mobile
               applications include a Do-Not-Track ("DNT") feature or setting you
@@ -842,7 +842,7 @@ function Body ()
             </p>
           </div>
           <div id="13">
-            <h1>13. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h1>
+            <h1 style={{fontSize:"3rem"}}>13. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h1>
             <p>
               In Short: Yes, if you are a resident of California, you are
               granted specific rights regarding access to your personal
@@ -893,9 +893,10 @@ function Body ()
               We have collected the following categories of personal information
               in the past twelve (12) months:
             </p>
-            <Table style={ { color: "#9E9FA5", fontSize: "1.6rem", fontWeight: "500" } }>
+            <div style={{zIndex:"-200"}}>
+            {/* <Table style={ { color: "#9E9FA5", fontSize: "1.6rem", fontWeight: "500",zIndex:"-100",overflow:"auto"} }>
               <Thead>
-                <Tr>
+                <Tr style={{overflow:"auto",zIndex:"-1000"}}>
                   <Th>Collected</Th>
                   <Th>Examples</Th>
                   <Th>Collected</Th>
@@ -958,7 +959,77 @@ function Body ()
                   <Td>NO</Td>
                 </Tr>
               </Tbody>
-            </Table>
+            </Table> */}
+
+            <div>
+        <table style={{color:"#9e9fa5",fontSize: "1.6rem", fontWeight: "500"}}>
+          <thead>
+            <tr>
+              <th>Collected</th>
+              <th>Examples</th>
+              <th>Collected</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Personal information categories listed in the California Customer Records statute</td>
+              <td>Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>Protected classification characteristics under California or federal law</td>
+              <td>Gender and date of birth</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>Commercial information</td>
+              <td>Transaction information, purchase history, financial details, and payment information</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+                  <td>Biometric information</td>
+                  <td>Fingerprints and voiceprints</td>
+                  <td>NO</td>
+                </tr>
+                <tr>
+                  <td>Internet or other similar network activity</td>
+                  <td>Browsing history, search history, online behaviour, interest data, and interactions with our and other websites, applications, systems, and advertisements</td>
+                  <td>YES</td>
+                </tr>
+                <tr>
+                  <td>Geolocation data</td>
+                  <td>Device location</td>
+                  <td>YES</td>
+                </tr>
+                <tr>
+                  <td>Audio, electronic, visual, thermal, olfactory, or similar information</td>
+                  <td>Images and audio, video or call recordings created in connection with our business activities</td>
+                  <td>YES</td>
+                </tr>
+                <tr>
+                  <td>Professional or employment-related information</td>
+                  <td>Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us</td>
+                  <td>NO</td>
+                </tr>
+                <tr>
+                  <td>Education Information</td>
+                  <td>Student records and directory information</td>
+                  <td>YES</td>
+                </tr>
+                <tr>
+                  <td>Inferences drawn from other personal information</td>
+                  <td>Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics</td>
+                  <td>YES</td>
+                </tr>
+                <tr>
+                  <td>Sensitive Personal Information</td>
+                  <td>            </td>
+                  <td>NO</td>
+                </tr>
+          </tbody>
+        </table>
+      </div>
+            </div>
             <p>
               We will use and retain the collected personal information as
               needed to provide the Services or for:
@@ -1099,7 +1170,7 @@ function Body ()
             </p>
           </div>
           <div id="14">
-            <h1>14. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h1>
+            <h1 style={{fontSize:"3rem"}}>14. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h1>
             <p>
               In Short: Yes, if you are a resident of Virginia, you may be
               granted specific rights regarding access to and use of your
@@ -1128,7 +1199,7 @@ function Body ()
             </p>
           </div>
           <div id="15">
-            <h1>15. DO WE MAKE UPDATES TO THIS NOTICE?</h1>
+            <h1 style={{fontSize:"3rem"}}>15. DO WE MAKE UPDATES TO THIS NOTICE?</h1>
             <p>
               In Short: Yes, we will update this notice as necessary to stay
               compliant with relevant laws.
@@ -1145,7 +1216,7 @@ function Body ()
             </p>
           </div>
           <div id="16">
-            <h1>16. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h1>
+            <h1 style={{fontSize:"3rem"}}>16. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h1>
             <p>
               If you have questions or comments about this notice, you may email
               us at dillkhush.com@gmail.com or contact us by post at:
@@ -1162,7 +1233,7 @@ function Body ()
             </p>
           </div>
           <div id="17">
-            <h1>
+            <h1 style={{fontSize:"3rem"}}>
               17. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
               YOU?
             </h1>
