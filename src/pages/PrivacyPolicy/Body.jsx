@@ -5,7 +5,7 @@ import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 function Body ()
 {
   return (
-    <section className='blog'>
+    <section id="privacy-policy" className='blog'>
       <div className="blog-container">
         <div >
           <h1 style={ { fontSize: "8rem" } } className="h1">
