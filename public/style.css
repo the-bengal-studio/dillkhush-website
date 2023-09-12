@@ -33,6 +33,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 10000;
 }
 
 header {
@@ -48,6 +49,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100000;
 }
 
 img {
@@ -100,6 +102,9 @@ button:hover {
     color: transparent;
     background-color: transparent;
     pointer-events: none;
+  }
+  nav{
+    z-index: 100000;
   }
 }
 
@@ -535,6 +540,8 @@ li {
   }
   .cont-logo img{
     width: 15rem;
+    height: 20rem;
+    margin-top: 13.5vh
   }
   .foot-container{
     text-align: center;
@@ -563,5 +570,62 @@ li {
 @media (max-width: 500px) {
   .blog-container, .disc-container, .terms-container, .policy-container{
     margin: 15rem 5rem;
+  }
+  .responsiveTable{
+    z-index: -100;
+  }
+  .hydrated{
+    visibility: visible;
+  }
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px auto 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style table headers */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Style table rows */
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style table cells */
+td {
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Apply responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  /* Hide table headers on small screens */
+  
+  th {
+    display: none;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  /* Center-align table cells */
+  td {
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  /* Add spacing between rows on small screens */
+  tr {
+    margin-bottom: 10px;
+    display: block;
   }
 }

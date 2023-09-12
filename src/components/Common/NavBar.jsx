@@ -5,7 +5,7 @@ function NavBar ()
     return (
         <header>
             <nav>
-                <div className="container">
+                <div className="container" style={{zIndex:"10000"}}>
                     <div className="logo">
                         <img src="images/logo.png" alt="logo" />
                     </div>
