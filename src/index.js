@@ -11,6 +11,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import Home from './pages/Home/Home';
 import TermsAndCondition from './pages/TermsAndCondition/TermsAndCondition';
 import QuickLinks from './pages/QuickLinks/QuickLinks';
+import Temp from './pages/Temp/Temp';
 
 const router = createBrowserRouter(
     [
@@ -37,6 +38,14 @@ const router = createBrowserRouter(
         {
             path: "/quick-link",
             element: <QuickLinks />
+        },
+        {
+            path: "/delete/my-data",
+            element: <Temp />
+        },
+        {
+            path: "/delete/account",
+            element: <Temp />
         }
     ]
 );
